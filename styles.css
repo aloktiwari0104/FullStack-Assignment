@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 10;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #c491aa;
+}
+
+/* Header Styling */
+header {
+    background-color: #ff3d3d;
+    color: white;
+    padding: 20px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    padding: 10px;
+    margin-left: 50px;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    margin-right: 30px;
+}
+
+header nav ul li { 
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Banner Section */
+.banner {
+    background-image: url('banner.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.banner h2 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.banner p {
+    font-size: 24px;
+}
+
+/* Movie Listings Section */
+.movies {
+    padding: 1px;
+    text-align: center;
+}
+
+.movies h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.movie-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.movie {
+    
+    padding: 1px;
+    border-radius: 1px;
+   
+    width: 250px;
+    margin: 2px;
+}
+
+.movie img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.movie h3 {
+    margin-top: 1px;
+    font-size: 20px;
+}
+
+.movie button {
+    background-color: #ff3d3d;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.movie button:hover {
+    background-color: #ff5e5e;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 14px;
+}
